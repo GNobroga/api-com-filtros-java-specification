@@ -4,6 +4,12 @@ Este projeto apresenta uma API simples e eficiente para filtragem de dados. Proj
 
 Todas as entidades abaixo, possuem filtragem e todas as filtragens podem ser combinadas.
 
+### Combinação
+
+```bash
+    http://localhost:8080/[controller]?page=1&limit=10&sort=-name;id;category.id&date_filters=attribute:2000-04-10to2000-04-10;attribute:2000-04-10to2000-04-10&in_filters=id:1,2,3,4;~name:José,Carlos,Maria
+```
+
 ### Paginação
 
 O limit máximo por página é 100
@@ -24,7 +30,7 @@ O limit máximo por página é 100
 ### Filtragem por Datas
 
 ```bash
-    http://localhost:8080/[controller]/date_filters=attribute:2000-04-10to2000-04-10;attribute:2000-04-10to2000-04-10;
+    http://localhost:8080/[controller]/date_filters=attribute:2000-04-10to2000-04-10;attribute:2000-04-10to2000-04-10
 ```
 
 
