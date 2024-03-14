@@ -1,7 +1,5 @@
 # Filter API
 
-Este projeto apresenta uma API simples e eficiente para filtragem de dados. Projetado para facilitar a manipulação e o acesso a conjuntos de dados extensos, a API oferece uma variedade de opções de filtragem, ordenação e paginação para atender às necessidades de diferentes cenários de uso.
-
 Todas as entidades abaixo, possuem filtragem e todas as filtragens podem ser combinadas.
 
 ### Combinação
