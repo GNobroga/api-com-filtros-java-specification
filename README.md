@@ -48,7 +48,6 @@ Exemplo
    http://localhost:8080/[controller]?in_filters=id:1,2,3,4;~name:José,Carlos,Maria
 ```
 
-
 ### Entidades
 
 #### Product
@@ -56,3 +55,5 @@ Exemplo
 #### Category
 
 #### Supplier
+
+#### Feito por amor por mim <3
