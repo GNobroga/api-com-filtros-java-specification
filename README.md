@@ -14,10 +14,10 @@ O limit máximo por página é 100
 
 ### Ordenação
 
-**-* - Indica que  a propriedade ser ordenada é DESC, na sua ausência é ASC
+**-* - Indica que  a propriedade deve ser ordenada em DESC, na sua ausência é ASC.
 
 ```bash
-    http://localhost:8080/[controller]?sort=-name;id
+    http://localhost:8080/[controller]?sort=-name;id;category.id
 ```
 
 
@@ -34,7 +34,7 @@ O limit máximo por página é 100
 **!=** - Indica que o atributo tem que ser diferente do valor especificado.
 
 ```bash
-   http://localhost:8080/[controller]?equal_filters=id:=10;name:!=Gabriel
+   http://localhost:8080/[controller]?equal_filters=id:=10;name:!=Gabriel;category.id:=1
 ```
 
 Exemplo
